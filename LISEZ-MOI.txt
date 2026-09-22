@@ -1,0 +1,68 @@
+CHAPITRES PAR BAC — catalogue de la clé
+=======================================
+
+CE QU'IL Y A DANS CE DOSSIER
+----------------------------
+  bac-chapitres.html   L'application. Elle se suffit à elle-même : les 6 bacs,
+                       leurs matières et les 476 fichiers de la médiathèque
+                       (286 vidéos, 190 documents) sont écrits à l'intérieur.
+  chapitres-data.js    Ta sauvegarde : les chapitres, les leçons, les exercices
+                       et les titres que tu as renommés.
+                       >> Il apparaît ici après ton premier « Exporter ». <<
+  LISEZ-MOI.txt        Ce fichier.
+
+Les fichiers eux-mêmes ne sont PAS dans ce dossier : ils restent dans E:\BAC.
+Le catalogue ne les recopie jamais, il les désigne par leur code — celui qui
+est déjà au début de chaque nom de fichier :
+
+    E:\BAC\Raouedha erguez FRANCAIS\Trimestre 1\Module 2 _Histoires d_amour_\
+        [RAOUEDHA-FR-001] Activité langue le but BS.pdf
+         ^^^^^^^^^^^^^^^^
+         c'est ce code que le catalogue enregistre
+
+
+OUVRIR
+------
+Double-clic sur bac-chapitres.html (ou sur « Ouvrir le catalogue.html »
+à la racine de la clé). Aucune installation, aucune connexion.
+Ça marche dans Chrome, Edge ou Firefox.
+
+
+OÙ SONT ENREGISTRÉS LES CHAPITRES QUE J'AJOUTE ?
+------------------------------------------------
+Dans le navigateur du PC sur lequel tu travailles (son « localStorage »),
+PAS dans la clé. C'est pour ça que la sauvegarde existe.
+
+Conséquences :
+  - Chaque PC a son propre contenu tant qu'on ne transporte pas la sauvegarde.
+  - Effacer les données de navigation efface le travail.
+  - Chrome et Edge sur le même PC ne partagent rien.
+
+
+LA ROUTINE, EN DEUX GESTES
+--------------------------
+FIN DE SÉANCE, sur le PC où tu as travaillé :
+  1. Clique « Exporter ».           -> chapitres-data.js va dans Téléchargements
+  2. Déplace-le dans ce dossier.    -> il remplace l'ancien
+
+SUR L'AUTRE PC :
+  Ouvre bac-chapitres.html. C'est tout.
+    - PC neuf        : le contenu se charge tout seul, sans rien demander.
+    - PC déjà rempli : un bandeau bleu propose de charger la version de la clé,
+                       en affichant les deux décomptes. Rien n'est écrasé sans
+                       ton clic, et le chargement reste annulable.
+
+Tu peux aussi charger une sauvegarde à la main : bouton « Importer », ou
+simplement glisser le fichier .js sur la page.
+
+Si le téléchargement est bloqué : Maj + clic sur « Exporter » affiche le texte
+à copier dans un fichier nommé chapitres-data.js.
+
+
+ATTENTION
+---------
+Charger une sauvegarde REMPLACE tout le contenu du PC — ce n'est pas une
+fusion. Si deux PC saisissent en parallèle, le dernier chargé gagne.
+Exporte à la fin de chaque séance et la question ne se pose pas.
+
+La ligne en bas de page rappelle la date de ta dernière sauvegarde.

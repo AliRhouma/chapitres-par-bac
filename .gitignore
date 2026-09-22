@@ -1,0 +1,15 @@
+# sauvegardes locales
+*.bak
+*.bak.html
+*.tmp
+
+# rien d'authentifiant ne doit remonter
+*.pem
+*.env
+.env*
+credentials*
+
+# EXCLU DU DEPOT : contient 2695 adresses de partage Dropbox (rlkey),
+# qui donnent acces aux 79 Go sans authentification.
+# Voir README - une version sans ces adresses peut etre publiee a la place.
+dropbox-data.js

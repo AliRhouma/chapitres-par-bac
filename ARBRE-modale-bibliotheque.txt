@@ -1,0 +1,1189 @@
+ARBRE DE LA BIBLIOTHEQUE - modale « Nouvelle lecon »
+==============================================================================
+Source : const MEDIA (bac-chapitres.html) / media.json
+
+  Niveau 1  [GROUPE]     -> <details class="grp">   un prof / une collection
+  Niveau 2    <dossier>  -> <details class="sgrp">  chemin du dossier
+  Niveau 3      fichier  -> <label class="f">      VID|DOC  titre  [REFERENCE]
+
+  20 groupes | 873 fichiers (552 videos, 321 documents)
+==============================================================================
+
+[Algo&Prog__WA]
+    140 fichiers, 126 dossiers
+  <(racine)>
+      DOC  aides-pedgogiques-2-3-4eme-si-algo             [HRISSEN-ALGO-001]
+  <Semestre 1/01-Les_Matrices/01-Définition>
+      VID  1-Définition                                   [HRISSEN-ALGO-002]
+  <Semestre 1/01-Les_Matrices/02.1-Déclaration__d_une__matrice__en__Algorithmique>
+      VID  2.1-Déclaration__d_une__matrice__en__Algorithm [HRISSEN-ALGO-003]
+  <Semestre 1/01-Les_Matrices/02.2-Déclaration__d_une__matrice__en__Python>
+      VID  2.2-Déclaration__d_une__matrice__en__Python    [HRISSEN-ALGO-004]
+  <Semestre 1/01-Les_Matrices/03.1-Exercice__sur__les__matrices__en__algorithmique>
+      VID  3.1-Exercice__sur__les__matrices__en__algorith [HRISSEN-ALGO-005]
+  <Semestre 1/01-Les_Matrices/03.2-Exercice__sur__les__matrices__en__Python>
+      VID  3.2-Exercice__sur__les__matrices__en__Python   [HRISSEN-ALGO-006]
+  <Semestre 1/01-Les_Matrices/04.1-Application__sur__les__matrices__en__Algorithmique>
+      VID  4.1-Application__sur__les__matrices__en__Algor [HRISSEN-ALGO-007]
+  <Semestre 1/01-Les_Matrices/04.2-Application__sur__les__matrices__en__Python>
+      VID  4.2-Application__sur__les__matrices__en__Pytho [HRISSEN-ALGO-008]
+  <Semestre 1/02-Les_Enregistrements/01-Définition>
+      VID  1-Définition                                   [HRISSEN-ALGO-011]
+  <Semestre 1/02-Les_Enregistrements/02-Notion_de_Champ>
+      VID  2-Notion_de_Champ                              [HRISSEN-ALGO-012]
+  <Semestre 1/02-Les_Enregistrements/03.1-Déclaration_d_un_enregistrement__en__Algorithmique>
+      VID  3.1-Déclaration_d_un_enregistrement__en__Algor [HRISSEN-ALGO-013]
+  <Semestre 1/02-Les_Enregistrements/03.2-Déclaration_d_un_enregistrement__en__Python>
+      VID  3.2-Déclaration_d_un_enregistrement__en__Pytho [HRISSEN-ALGO-014]
+  <Semestre 1/02-Les_Enregistrements/03.3-Déclaration_d_un_enregistrement_avec_un_exemple(Point)>
+      VID  3.3-Déclaration_d_un_enregistrement_avec_un_ex [HRISSEN-ALGO-015]
+  <Semestre 1/02-Les_Enregistrements/04-Traitements__sur__les__enregistrements>
+      VID  4-Traitements__sur__les__enregistrements       [HRISSEN-ALGO-016]
+  <Semestre 1/02-Les_Enregistrements/05.1-Application__en__Algorithmique>
+      VID  5.1-Application__en__Algorithmique             [HRISSEN-ALGO-017]
+  <Semestre 1/02-Les_Enregistrements/05.2-Application__en__Python>
+      VID  5.2-Application__en__Python                    [HRISSEN-ALGO-018]
+  <Semestre 1/02-Les_Enregistrements/06.1-Tableau d_enregistrement et Application en Algorithmique>
+      VID  6.1-Tableau d_enregistrement et Application en [HRISSEN-ALGO-019]
+  <Semestre 1/02-Les_Enregistrements/06.2-Tableau d_enregistrement et Application en Python>
+      VID  6.2-Tableau d_enregistrement et Application en [HRISSEN-ALGO-020]
+  <Semestre 1/03-les_algorithmes_de_tri/01-Définition>
+      VID  1-Définition                                   [HRISSEN-ALGO-023]
+  <Semestre 1/03-les_algorithmes_de_tri/02.1-Tri_à_bulles__en_Algorithmique>
+      VID  2.1-Tri_à_bulles__en_Algorithmique             [HRISSEN-ALGO-024]
+  <Semestre 1/03-les_algorithmes_de_tri/02.2-Tri_à_bulles__en_Python>
+      VID  2.2-Tri_à_bulles__en_Python                    [HRISSEN-ALGO-025]
+  <Semestre 1/03-les_algorithmes_de_tri/03.1-Tri_par_sélection__en_Algorithmique>
+      VID  3.1-Tri_par_sélection__en_Algorithmique        [HRISSEN-ALGO-026]
+  <Semestre 1/03-les_algorithmes_de_tri/03.2-Tri_par_sélection__en_Python>
+      VID  3.2-Tri_par_sélection__en_Python               [HRISSEN-ALGO-027]
+  <Semestre 1/03-les_algorithmes_de_tri/04.1-Tri_par_insertion__en_Algorithmique>
+      VID  4.1-Tri_par_insertion__en_Algorithmique        [HRISSEN-ALGO-028]
+  <Semestre 1/03-les_algorithmes_de_tri/04.2-Tri_par_insertion__en_Python>
+      VID  4.2-Tri_par_insertion__en_Python               [HRISSEN-ALGO-029]
+  <Semestre 1/03-les_algorithmes_de_tri/05.1-Tri_de_shell__en_Algorithmique>
+      VID  5.1-Tri_de_shell__en_Algorithmique             [HRISSEN-ALGO-030]
+  <Semestre 1/03-les_algorithmes_de_tri/05.2-Tri_de_shell__en_Python>
+      VID  5.2-Tri_de_shell__en_Python                    [HRISSEN-ALGO-031]
+  <Semestre 1/04-Recherche_dans_un_tableau/01.1-Recherche_Sequentielle(Recherche un element)__en__Algorithmique>
+      VID  1.1-Recherche_Sequentielle(Recherche un elemen [HRISSEN-ALGO-034]
+  <Semestre 1/04-Recherche_dans_un_tableau/01.2-Recherche_Sequentielle(Recherche position)__en__Algorithmique>
+      VID  1.2-Recherche_Sequentielle(Recherche position) [HRISSEN-ALGO-035]
+  <Semestre 1/04-Recherche_dans_un_tableau/01.3-Recherche_Sequentielle(Recherche un element et position)__en__Python>
+      VID  1.3-Recherche_Sequentielle(Recherche un elemen [HRISSEN-ALGO-036]
+  <Semestre 1/04-Recherche_dans_un_tableau/02.1-Recherche_Dichotomique(itérative et récursive)__en__Algorithmique>
+      VID  2.1-Recherche_Dichotomique(itérative et récurs [HRISSEN-ALGO-037]
+  <Semestre 1/04-Recherche_dans_un_tableau/02.2-Recherche_Dichotomique(itérative et récursive)__en__Python>
+      VID  2.2-Recherche_Dichotomique(itérative et récurs [HRISSEN-ALGO-038]
+  <Semestre 1/04-Recherche_dans_un_tableau/03-Correction_exercice_d_application>
+      VID  3-Correction_exercice_d_application            [HRISSEN-ALGO-039]
+  <Semestre 1/05-La_Recursivité/01-Définition,Notion de Pile et (les procédures & les fonctions)>
+      VID  1-Définition,Notion de Pile et (les procédures [HRISSEN-ALGO-042]
+  <Semestre 1/05-La_Recursivité/02-Puissance>
+      VID  2-Puissance                                    [HRISSEN-ALGO-043]
+  <Semestre 1/05-La_Recursivité/03-factorielle>
+      VID  3-factorielle                                  [HRISSEN-ALGO-044]
+  <Semestre 1/05-La_Recursivité/04-Inverser une chaine de caractéres>
+      VID  4-Inverser une chaine de caractéres            [HRISSEN-ALGO-045]
+  <Semestre 1/05-La_Recursivité/05-Application>
+      VID  5-Application                                  [HRISSEN-ALGO-046]
+  <Semestre 1/06-Les_fichiers/01-Définition>
+      VID  1-Définition                                   [HRISSEN-ALGO-049]
+  <Semestre 1/06-Les_fichiers/02-Les_Types_de_fichiers>
+      VID  2-Les_Types_de_fichiers                        [HRISSEN-ALGO-050]
+  <Semestre 1/06-Les_fichiers/03-Déclaration_d_un_fichier_texte_et_binaire_en_Algorithmique>
+      VID  3-Déclaration_d_un_fichier_texte_et_binaire_en [HRISSEN-ALGO-051]
+  <Semestre 1/06-Les_fichiers/04.1-Les_fonctions_et_les_procédures_prédéfinies_sur_les_fichiers(Fichier Texte)>
+      VID  4.1-Les_fonctions_et_les_procédures_prédéfinie [HRISSEN-ALGO-052]
+  <Semestre 1/06-Les_fichiers/04.2-Les_fonctions_et_les_procédures_prédéfinies_sur_les_fichiers(Fichier Binaire)>
+      VID  4.2-Les_fonctions_et_les_procédures_prédéfinie [HRISSEN-ALGO-053]
+  <Semestre 1/06-Les_fichiers/05.1-Application_1_Les_fichiers_texte_en_algorithmique>
+      VID  5.1-Application_1_Les_fichiers_texte_en_algori [HRISSEN-ALGO-054]
+  <Semestre 1/06-Les_fichiers/05.2-Application_1_Les_fichiers_texte_en_python>
+      VID  5.2-Application_1_Les_fichiers_texte_en_python [HRISSEN-ALGO-055]
+  <Semestre 1/06-Les_fichiers/06.1-Application_2_Les_fichiers_binaire_en_algorithmique>
+      VID  6.1-Application_2_Les_fichiers_binaire_en_algo [HRISSEN-ALGO-056]
+  <Semestre 1/06-Les_fichiers/06.2-Application_2_Les_fichiers_binaire_en_python>
+      VID  6.2-Application_2_Les_fichiers_binaire_en_pyth [HRISSEN-ALGO-057]
+  <Semestre 1/1-Les_Matrices>
+      DOC  Les Matrices                                   [HRISSEN-ALGO-009]
+      DOC  partie 1                                       [HRISSEN-ALGO-010]
+  <Semestre 1/2-Les_Enregistrements>
+      DOC  Les Enregistrements                            [HRISSEN-ALGO-021]
+      DOC  partie 1                                       [HRISSEN-ALGO-022]
+  <Semestre 1/3-les_algorithmes_de_tri>
+      DOC  Les algorithmes de tri                         [HRISSEN-ALGO-032]
+      DOC  partie 1                                       [HRISSEN-ALGO-033]
+  <Semestre 1/4-Recherche_dans_un_tableau>
+      DOC  Recherche dans un tableau                      [HRISSEN-ALGO-040]
+      DOC  partie 1                                       [HRISSEN-ALGO-041]
+  <Semestre 1/5-La_Recursivité>
+      DOC  La Récursivité                                 [HRISSEN-ALGO-047]
+      DOC  partie1                                        [HRISSEN-ALGO-048]
+  <Semestre 1/6-Les_fichiers>
+      DOC  Les Fichiers                                   [HRISSEN-ALGO-058]
+      DOC  partie 1                                       [HRISSEN-ALGO-059]
+  <Semestre 2/01-les_algorithmes_récurrents/01-Définition_et_exemples_de_traitements_récurrents>
+      VID  1-Définition_et_exemples_de_traitements_récurr [HRISSEN-ALGO-060]
+  <Semestre 2/01-les_algorithmes_récurrents/02.1-Calcul_de_la_Somme_en_Algorithmique>
+      VID  2.1-Calcul_de_la_Somme_en_Algorithmique        [HRISSEN-ALGO-061]
+  <Semestre 2/01-les_algorithmes_récurrents/02.2-Calcul_de_la_Somme_en_Python>
+      VID  2.2-Calcul_de_la_Somme_en_Python               [HRISSEN-ALGO-062]
+  <Semestre 2/01-les_algorithmes_récurrents/03.1-Suite_thue_Morse_en_Algorithmique>
+      VID  3.1-Suite_thue_Morse_en_Algorithmique          [HRISSEN-ALGO-063]
+  <Semestre 2/01-les_algorithmes_récurrents/03.2-Suite_thue_Morse_en_Python>
+      VID  3.2-Suite_thue_Morse_en_Python                 [HRISSEN-ALGO-064]
+  <Semestre 2/01-les_algorithmes_récurrents/04.1-Suite_de_fibonacci_en_Algorithmique>
+      VID  4.1-Suite_de_fibonacci_en_Algorithmique        [HRISSEN-ALGO-065]
+  <Semestre 2/01-les_algorithmes_récurrents/04.2-Suite_de_fibonacci_en_Python>
+      VID  4.2-Suite_de_fibonacci_en_Python               [HRISSEN-ALGO-066]
+  <Semestre 2/01-les_algorithmes_récurrents/05.1-Nombre_d_or_en_Algorithmique>
+      VID  5.1-Nombre_d_or_en_Algorithmique               [HRISSEN-ALGO-067]
+  <Semestre 2/01-les_algorithmes_récurrents/05.2-Nombre_d_or_en_Python>
+      VID  5.2-Nombre_d_or_en_Python                      [HRISSEN-ALGO-068]
+  <Semestre 2/01-les_algorithmes_récurrents/06-Triangle_de_pascal/01-Définition,Caractéristique et exemple>
+      VID  1-Définition,Caractéristique et exemple        [HRISSEN-ALGO-069]
+  <Semestre 2/01-les_algorithmes_récurrents/06-Triangle_de_pascal/02.1-Méthode1_en_Algorithmique>
+      VID  2.1-Méthode1_en_Algorithmique                  [HRISSEN-ALGO-070]
+  <Semestre 2/01-les_algorithmes_récurrents/06-Triangle_de_pascal/02.2-Méthode2_en_Algorithmique>
+      VID  2.2-Méthode2_en_Algorithmique                  [HRISSEN-ALGO-071]
+  <Semestre 2/01-les_algorithmes_récurrents/06-Triangle_de_pascal/02.3-Méthode1_et_Méthode2_en_Python>
+      VID  2.3-Méthode1_et_Méthode2_en_Python             [HRISSEN-ALGO-072]
+  <Semestre 2/01-les_algorithmes_récurrents/06-Triangle_de_pascal/03.1-Correction_exercice_en_Algorithmique>
+      VID  3.1-Correction_exercice_en_Algorithmique       [HRISSEN-ALGO-073]
+  <Semestre 2/01-les_algorithmes_récurrents/06-Triangle_de_pascal/03.2-Correction_exercice_en_Python>
+      VID  3.2-Correction_exercice_en_Python              [HRISSEN-ALGO-074]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/01-Définition>
+      VID  1-Définition                                   [HRISSEN-ALGO-079]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/02.1-Test_de_Primalité_en_Algorithmique>
+      VID  2.1-Test_de_Primalité_en_Algorithmique         [HRISSEN-ALGO-096]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/02.2-Test_de_Primalité_en_Python>
+      VID  2.2-Test_de_Primalité_en_Python                [HRISSEN-ALGO-097]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/03.1-Calcul_de_PGCD__avec_Difference_et_Euclide__en_Algorithmique>
+      VID  3.1-Calcul_de_PGCD__avec_Difference_et_Euclide [HRISSEN-ALGO-098]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/03.2-Calcul_de_PGCD__avec_Difference_et_Euclide__en_Python>
+      VID  3.2-Calcul_de_PGCD__avec_Difference_et_Euclide [HRISSEN-ALGO-099]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/04.1-Calcul_de_Puissance__en_Algorithmique>
+      VID  4.1-Calcul_de_Puissance__en_Algorithmique      [HRISSEN-ALGO-100]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/04.2-Calcul_de_Puissance__en_Python>
+      VID  4.2-Calcul_de_Puissance__en_Python             [HRISSEN-ALGO-101]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/05.1-Calcul_de_Factoriel__en_Algorithmique>
+      VID  5.1-Calcul_de_Factoriel__en_Algorithmique      [HRISSEN-ALGO-102]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/05.2-Calcul_de_Factoriel__en_Python>
+      VID  5.2-Calcul_de_Factoriel__en_Python             [HRISSEN-ALGO-103]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/06.1-Nombre_Parfait__en_Algorithmique>
+      VID  6.1-Nombre_Parfait__en_Algorithmique           [HRISSEN-ALGO-104]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/06.2-Nombre_Parfait__en_Python>
+      VID  6.2-Nombre_Parfait__en_Python                  [HRISSEN-ALGO-105]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/07.1-Calcul_PPCM__en_Algorithmique>
+      VID  7.1-Calcul_PPCM__en_Algorithmique              [HRISSEN-ALGO-106]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/07.2-Calcul_PPCM__en_Python>
+      VID  7.2-Calcul_PPCM__en_Python                     [HRISSEN-ALGO-107]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/08.1-Calcul_Arrangement__en_Algorithmique>
+      VID  8.1-Calcul_Arrangement__en_Algorithmique       [HRISSEN-ALGO-108]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/08.2-Calcul_Arrangement__en_Python>
+      VID  8.2-Calcul_Arrangement__en_Python              [HRISSEN-ALGO-109]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/09.1-Calcul_Combinaison__en_Algorithmique>
+      VID  9.1-Calcul_Combinaison__en_Algorithmique       [HRISSEN-ALGO-110]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/09.2-Calcul_Combinaison__en_Python>
+      VID  9.2-Calcul_Combinaison__en_Python              [HRISSEN-ALGO-111]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/10.1-Régles_de_divisibilité_en_Algorithmique>
+      VID  10.1-Régles_de_divisibilité_en_Algorithmique   [HRISSEN-ALGO-080]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/10.2-Régles_de_divisibilité_en_Python>
+      VID  10.2-Régles_de_divisibilité_en_Python          [HRISSEN-ALGO-081]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/11-Les_Conversion_entre_les_bases/01-Définition>
+      VID  1-Définition                                   [HRISSEN-ALGO-082]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/11-Les_Conversion_entre_les_bases/02.1-Conversion_base10_vers_base2__en_Algorithmique>
+      VID  2.1-Conversion_base10_vers_base2__en_Algorithm [HRISSEN-ALGO-083]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/11-Les_Conversion_entre_les_bases/02.2-Conversion_base10_vers_base2__en_Python>
+      VID  2.2-Conversion_base10_vers_base2__en_Python    [HRISSEN-ALGO-084]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/11-Les_Conversion_entre_les_bases/03.1-Conversion_base2_vers_base10__en__Algorithmique>
+      VID  3.1-Conversion_base2_vers_base10__en__Algorith [HRISSEN-ALGO-085]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/11-Les_Conversion_entre_les_bases/03.2-Conversion_base2_vers_base10__en_Python>
+      VID  3.2-Conversion_base2_vers_base10__en_Python    [HRISSEN-ALGO-086]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/11-Les_Conversion_entre_les_bases/04.1-Conversion_base10_vers_base16__en_Algorithmique>
+      VID  4.1-Conversion_base10_vers_base16__en_Algorith [HRISSEN-ALGO-087]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/11-Les_Conversion_entre_les_bases/04.2-Conversion_base10_vers_base16__en_Python>
+      VID  4.2-Conversion_base10_vers_base16__en_Python   [HRISSEN-ALGO-088]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/11-Les_Conversion_entre_les_bases/05.1-Conversion_base16_vers_base10__en_Algorithmique>
+      VID  5.1-Conversion_base16_vers_base10__en_Algorith [HRISSEN-ALGO-089]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/11-Les_Conversion_entre_les_bases/05.2-Conversion_base16_vers_base10__en_Python>
+      VID  5.2-Conversion_base16_vers_base10__en_Python   [HRISSEN-ALGO-090]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/12-Décomposition__en__facteur_premier/01.1-Inroduction_et_première_méthode_en_Algorithmique>
+      VID  1.1-Inroduction_et_première_méthode_en_Algorit [HRISSEN-ALGO-091]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/12-Décomposition__en__facteur_premier/01.2-première_méthode_en_Python>
+      VID  1.2-première_méthode_en_Python                 [HRISSEN-ALGO-092]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/12-Décomposition__en__facteur_premier/02.1-2éme_méthode_en_Algorithmique>
+      VID  2.1-2éme_méthode_en_Algorithmique              [HRISSEN-ALGO-093]
+  <Semestre 2/02-les_algorithmes_d_arithmétiques/12-Décomposition__en__facteur_premier/02.2-2éme_Méthode_en_Python>
+      VID  2.2-2éme_Méthode_en_Python                     [HRISSEN-ALGO-094]
+  <Semestre 2/03-les_interfaces_graphiques/Application_1>
+      VID  Application_1                                  [HRISSEN-ALGO-117]
+  <Semestre 2/03-les_interfaces_graphiques/Application_2>
+      VID  Application_2                                  [HRISSEN-ALGO-119]
+  <Semestre 2/03-les_interfaces_graphiques/Application_3/Prototype2023_partie1>
+      VID  Prototype2023_partie1                          [HRISSEN-ALGO-122]
+  <Semestre 2/03-les_interfaces_graphiques/Application_3/Prototype2023_partie2>
+      VID  Prototype2023_partie2                          [HRISSEN-ALGO-123]
+  <Semestre 2/03-les_interfaces_graphiques/Application_3/Prototype2023_partie3>
+      VID  Prototype2023_partie3                          [HRISSEN-ALGO-124]
+  <Semestre 2/03-les_interfaces_graphiques/Application_3/Prototype2023_partie4>
+      VID  Prototype2023_partie4                          [HRISSEN-ALGO-125]
+  <Semestre 2/1-les_algorithmes_récurrents>
+      DOC  Les algorithmes récurrents                     [HRISSEN-ALGO-077]
+      DOC  partie 1                                       [HRISSEN-ALGO-078]
+  <Semestre 2/1-les_algorithmes_récurrents/6-Triangle_de_pascal>
+      DOC  Correction_Exercice                            [HRISSEN-ALGO-075]
+      DOC  Triangle de Pascal                             [HRISSEN-ALGO-076]
+  <Semestre 2/2-les_algorithmes_d_arithmétiques>
+      DOC  Les algorithmes_d_arithmétiques                [HRISSEN-ALGO-112]
+      DOC  fiche-les-algorithmes-arithmetiques            [HRISSEN-ALGO-113]
+      DOC  partie 1                                       [HRISSEN-ALGO-114]
+      DOC  partie 2                                       [HRISSEN-ALGO-115]
+  <Semestre 2/2-les_algorithmes_d_arithmétiques/12-Décomposition__en__facteur_premier>
+      DOC  Décomposition facteur premier                  [HRISSEN-ALGO-095]
+  <Semestre 2/3-les_interfaces_graphiques>
+      DOC  Annexe-PYQT5                                   [HRISSEN-ALGO-116]
+      DOC  Les interfaces graphiques                      [HRISSEN-ALGO-126]
+  <Semestre 2/3-les_interfaces_graphiques/Application_1>
+      DOC  Exercices d_application QtDesigner             [HRISSEN-ALGO-118]
+  <Semestre 2/3-les_interfaces_graphiques/Application_2>
+      DOC  Exercices d_application QtDesigner             [HRISSEN-ALGO-120]
+  <Semestre 2/3-les_interfaces_graphiques/Application_3>
+      DOC  Prototype 2023                                 [HRISSEN-ALGO-121]
+  <Semestre 3/les algorithmes d_approximations>
+      DOC  Fiche__et__Exercices__sur__les__algorithmes__d [HRISSEN-ALGO-138]
+      DOC  Les_algorithmes_d_approximations_2             [HRISSEN-ALGO-139]
+      DOC  les_algorithmes_d_approximations_1             [HRISSEN-ALGO-140]
+  <Semestre 3/les algorithmes d_approximations/01-introduction>
+      VID  introduction                                   [HRISSEN-ALGO-127]
+  <Semestre 3/les algorithmes d_approximations/02- point_fixe_part1>
+      VID  point_fixe_part1                               [HRISSEN-ALGO-128]
+  <Semestre 3/les algorithmes d_approximations/02- point_fixe_part2>
+      VID  point_fixe_part2                               [HRISSEN-ALGO-129]
+  <Semestre 3/les algorithmes d_approximations/03- Calcul_de_valeurs_approchées_de_constantes_connues_part1>
+      VID  Calcul_de_valeurs_approchées_de_constantes_con [HRISSEN-ALGO-130]
+  <Semestre 3/les algorithmes d_approximations/03- Calcul_de_valeurs_approchées_de_constantes_connues_part2>
+      VID  Calcul_de_valeurs_approchées_de_constantes_con [HRISSEN-ALGO-131]
+  <Semestre 3/les algorithmes d_approximations/04- valeur__approchée__de__e__version__en__python>
+      VID  valeur__approchée__de__e__version__en__python  [HRISSEN-ALGO-132]
+  <Semestre 3/les algorithmes d_approximations/04- valeur_approchée_de_e__version__algo>
+      VID  valeur_approchée_de_e__version__algo           [HRISSEN-ALGO-133]
+  <Semestre 3/les algorithmes d_approximations/05- Formule__de__wallis>
+      VID  Formule__de__wallis                            [HRISSEN-ALGO-134]
+  <Semestre 3/les algorithmes d_approximations/06- Calcul__d_aires>
+      VID  Calcul__d_aires                                [HRISSEN-ALGO-135]
+  <Semestre 3/les algorithmes d_approximations/07- Les__Méthodes__des__Rectangles>
+      VID  Les__Méthodes__des__Rectangles                 [HRISSEN-ALGO-136]
+  <Semestre 3/les algorithmes d_approximations/08- Méthode__de__trapèzes>
+      VID  Méthode__de__trapèzes                          [HRISSEN-ALGO-137]
+
+[VIDEOS MECANIQUE AMMAR]
+    91 fichiers, 10 dossiers
+  <(racine)>
+      DOC  CORRECTION COTATION FONCTIONNELLE-BAC 2027     [AMMAR-MECA-007]
+      DOC  COTATION FONCTIONNELLE  BAC 2027               [AMMAR-MECA-008]
+      DOC  Application 1 - Correction                     [AMMAR-MECA-009]
+      DOC  Application 1                                  [AMMAR-MECA-011]
+      DOC  Application 2 - Correction                     [AMMAR-MECA-012]
+      DOC  Application 2                                  [AMMAR-MECA-014]
+      DOC  Application 3 - Correction                     [AMMAR-MECA-015]
+      DOC  Application 3                                  [AMMAR-MECA-017]
+      DOC  Application 4 - Correction                     [AMMAR-MECA-018]
+      DOC  Application 4                                  [AMMAR-MECA-020]
+      DOC  APPLICATION 1 - Correction                     [AMMAR-MECA-021]
+      DOC  APPLICATION 1                                  [AMMAR-MECA-023]
+      DOC  APPLICATION 2 -  Correction                    [AMMAR-MECA-024]
+      DOC  APPLICATION 2                                  [AMMAR-MECA-026]
+      DOC  APPLICATION 3 -  Correction                    [AMMAR-MECA-027]
+      DOC  APPLICATION 3                                  [AMMAR-MECA-029]
+      DOC  APPLICATION 4 - Correction                     [AMMAR-MECA-030]
+      DOC  APPLICATION 4                                  [AMMAR-MECA-032]
+      DOC  Resumé cours engenage                          [AMMAR-MECA-033]
+      DOC  APPLICATION 1 - Correction                     [AMMAR-MECA-034]
+      DOC  APPLICATION 1                                  [AMMAR-MECA-036]
+      DOC  APPLICATION 2 - Correction                     [AMMAR-MECA-037]
+      DOC  APPLICATION 2                                  [AMMAR-MECA-039]
+      DOC  APPLICATION 3 - Correction                     [AMMAR-MECA-040]
+      DOC  APPLICATION 3                                  [AMMAR-MECA-042]
+      DOC  APPLICATION  1 - Correction                    [AMMAR-MECA-043]
+      DOC  APPLICATION  1                                 [AMMAR-MECA-044]
+      DOC  APPLICATION  2 - Correction                    [AMMAR-MECA-045]
+      DOC  APPLICATION  2                                 [AMMAR-MECA-046]
+      DOC  APPLICATION  3 - Correction                    [AMMAR-MECA-047]
+      DOC  APPLICATION  3                                 [AMMAR-MECA-048]
+      DOC  APPLICATION  4 - Correction                    [AMMAR-MECA-049]
+      DOC  APPLICATION  4                                 [AMMAR-MECA-050]
+      DOC  APPLICATION  5 -DESSIN DENSEMBLE               [AMMAR-MECA-051]
+      DOC  APPLICATION  5- Correction                     [AMMAR-MECA-052]
+      DOC  APPLICATION  5                                 [AMMAR-MECA-053]
+      DOC  APPLICATION  1 - Correction                    [AMMAR-MECA-059]
+      DOC  APPLICATION  1                                 [AMMAR-MECA-061]
+      DOC  APPLICATION  2 - Correction                    [AMMAR-MECA-062]
+      DOC  APPLICATION  2                                 [AMMAR-MECA-064]
+      DOC  APPLICATION  3 - Correction                    [AMMAR-MECA-065]
+      DOC  APPLICATION  3                                 [AMMAR-MECA-066]
+      DOC  APPLICATION  4 - Correction                    [AMMAR-MECA-067]
+      DOC  APPLICATION  4                                 [AMMAR-MECA-068]
+      DOC  APPLICATION  5 - Correction                    [AMMAR-MECA-069]
+      DOC  APPLICATION  5                                 [AMMAR-MECA-070]
+      DOC  APPLICATION  6 - Correction                    [AMMAR-MECA-071]
+      DOC  APPLICATION  6                                 [AMMAR-MECA-073]
+      DOC  ROULEMENT BT BAC 2026                          [AMMAR-MECA-080]
+      DOC  TORSION SIMPLE BAC 2027                        [AMMAR-MECA-086]
+      DOC  TRAIN EPICYCLOIDAL BAC 2026                    [AMMAR-MECA-091]
+  <COTATION FONCTIONELLE  T1>
+      VID  APPLICATION 1                                  [AMMAR-MECA-001]
+      VID  APPLICATION 2                                  [AMMAR-MECA-002]
+      VID  APPLICATION 3                                  [AMMAR-MECA-003]
+      VID  APPLICATION 4                                  [AMMAR-MECA-004]
+      VID  APPLICATION 5                                  [AMMAR-MECA-005]
+      VID  APPLICATION 6                                  [AMMAR-MECA-006]
+  <DESSIN DE DEFINITION T1>
+      VID  Application 1                                  [AMMAR-MECA-010]
+      VID  Application 2                                  [AMMAR-MECA-013]
+      VID  Application 3                                  [AMMAR-MECA-016]
+      VID  Application 4                                  [AMMAR-MECA-019]
+  <ENGRENAGE T2>
+      VID  APPLICATION 1                                  [AMMAR-MECA-022]
+      VID  APPLICATION 2                                  [AMMAR-MECA-025]
+      VID  APPLICATION 3                                  [AMMAR-MECA-028]
+      VID  APPLICATION 4                                  [AMMAR-MECA-031]
+  <FABRICATION T3>
+      VID  APPLICATION 1                                  [AMMAR-MECA-035]
+      VID  APPLICATION 2                                  [AMMAR-MECA-038]
+      VID  APPLICATION 3                                  [AMMAR-MECA-041]
+  <FAST T1>
+      VID  APPLICATION 1                                  [AMMAR-MECA-054]
+      VID  APPLICATION 2                                  [AMMAR-MECA-055]
+      VID  APPLICATION 3                                  [AMMAR-MECA-056]
+      VID  APPLICATION 4                                  [AMMAR-MECA-057]
+      VID  APPLICATION 5                                  [AMMAR-MECA-058]
+  <FLEXION SIMPLE T2>
+      VID  APPLICATION  1                                 [AMMAR-MECA-060]
+      VID  APPLICATION  2                                 [AMMAR-MECA-063]
+      VID  APPLICATION  6                                 [AMMAR-MECA-072]
+      VID  APPLICATION 3                                  [AMMAR-MECA-074]
+      VID  APPLICATION 4                                  [AMMAR-MECA-075]
+      VID  APPLICATION 5                                  [AMMAR-MECA-076]
+  <ROULEMENT BT T3>
+      VID  APPLICATION 3                                  [AMMAR-MECA-077]
+      VID  APPLICATION 4                                  [AMMAR-MECA-078]
+      VID  APPLICATION 7                                  [AMMAR-MECA-079]
+      VID  Résumé de cours                                [AMMAR-MECA-081]
+  <TORSION T3>
+      VID  APPLICATINN 1                                  [AMMAR-MECA-082]
+      VID  APPLICATION 2                                  [AMMAR-MECA-083]
+      VID  APPLICATION 3                                  [AMMAR-MECA-084]
+      VID  APPLICATION 4                                  [AMMAR-MECA-085]
+  <TRAIN EPICYCLOIDAL T2>
+      VID  APPLICATION 1                                  [AMMAR-MECA-087]
+      VID  APPLICATION 2                                  [AMMAR-MECA-088]
+      VID  APPLICATION 3                                  [AMMAR-MECA-089]
+      VID  APPLICATION 4                                  [AMMAR-MECA-090]
+
+[mahdi BAC]
+    84 fichiers, 8 dossiers
+  <(racine)>
+      VID  condensateur correction ex n 01                [MAHDI-PHYS-001]
+      DOC  ex n 01-ex n 02 la bobine                      [MAHDI-PHYS-003]
+      DOC  ex n 03 bobine                                 [MAHDI-PHYS-004]
+      DOC  LA BOBINE (avec des notes)                     [MAHDI-PHYS-005]
+      DOC  LA BOBINE (vierge)                             [MAHDI-PHYS-006]
+      DOC  pdf Cinétique chimique - Chapitre 1 - Cours et [MAHDI-PHYS-020]
+      DOC  pdf L'équilibre chimique BAC                   [MAHDI-PHYS-021]
+      DOC  chapitre 01 BS                                 [MAHDI-PHYS-023]
+      DOC  pdf le condensateur (correx ex)                [MAHDI-PHYS-030]
+      DOC  correction ex 01 oscillations libres amortie   [MAHDI-PHYS-031]
+      DOC  correction ex 02_ex 03 oscillations libres amo [MAHDI-PHYS-032]
+      DOC  OSCILLATIONS ELECTRIQUES LIBRES AMORTIES pdf   [MAHDI-PHYS-038]
+      DOC  O oSCILLATIONS ELECTRIQUES LIBRES NON AMORTIES [MAHDI-PHYS-039]
+      DOC  osc non amorties ex n 01-ex n 02               [MAHDI-PHYS-040]
+      DOC  osc non amorties ex n 03 - ex n 04             [MAHDI-PHYS-041]
+      DOC  osc non amorties ex n 05                       [MAHDI-PHYS-042]
+      DOC  pdf oscillations electriques entretenues       [MAHDI-PHYS-056]
+      DOC  DIPOLE RC (avec notes)                         [MAHDI-PHYS-063]
+      DOC  DIPOLE RC (vierge)                             [MAHDI-PHYS-064]
+      DOC  ex 03-04 dipole rc                             [MAHDI-PHYS-067]
+      DOC  ex 05-06 dipole RC                             [MAHDI-PHYS-068]
+      DOC  exercice 01-02 dipole RC                       [MAHDI-PHYS-069]
+      DOC  correction ex 02_ex 03 oscillations libres amo [MAHDI-PHYS-070]
+      DOC  correction ex 03-ex 04 dipole RL               [MAHDI-PHYS-071]
+      DOC  correction ex 05-ex 06 dipole RL               [MAHDI-PHYS-072]
+      DOC  correction ex n 01-ex n 02 dipole RL           [MAHDI-PHYS-073]
+      DOC  OSCILLATIONS ELECTRIQUES LIBRES AMORTIES pdf ( [MAHDI-PHYS-082]
+      DOC  OSCILLATIONS ELECTRIQUES LIBRES AMORTIES pdf   [MAHDI-PHYS-083]
+      DOC  PDF COURS DIPOLE RL                            [MAHDI-PHYS-084]
+  <Bobine dpx>
+      VID  bobine correction ex n 03                      [MAHDI-PHYS-002]
+      VID  la bobine correction ex n 01                   [MAHDI-PHYS-007]
+      VID  la bobine correction ex n 02                   [MAHDI-PHYS-008]
+      VID  la bobine                                      [MAHDI-PHYS-009]
+  <RC>
+      VID  correction ex n 01 dipole RC                   [MAHDI-PHYS-057]
+      VID  correction ex n 02 dipole RC                   [MAHDI-PHYS-058]
+      VID  correction ex n 03 dipole RC                   [MAHDI-PHYS-059]
+      VID  correction ex n 04 dipole RC                   [MAHDI-PHYS-060]
+      VID  correction ex n 05 dipole RC                   [MAHDI-PHYS-061]
+      VID  correction ex n 06 dipole RC                   [MAHDI-PHYS-062]
+      VID  dipole RC etude théorique ..                   [MAHDI-PHYS-065]
+      VID  dipole RC étude exprémentale                   [MAHDI-PHYS-066]
+  <RL>
+      VID  dipole RL  correction EX n 02                  [MAHDI-PHYS-074]
+      VID  dipole RL correction EX n 01                   [MAHDI-PHYS-075]
+      VID  dipole RL correction EX n 03                   [MAHDI-PHYS-076]
+      VID  dipole RL correction EX n 04                   [MAHDI-PHYS-077]
+      VID  dipole RL correction EX n 05                   [MAHDI-PHYS-078]
+      VID  dipole RL correction EX n 06                   [MAHDI-PHYS-079]
+      VID  dipole RL etude théorique                      [MAHDI-PHYS-080]   << ABSENT DE BUNNY >>
+      VID  dipole RL étude exprementale                   [MAHDI-PHYS-081]
+  <cinétique chimique dpx>
+      VID  avancement d'une réaction chimique             [MAHDI-PHYS-010]
+      VID  cinetique chimique correction EX n 03          [MAHDI-PHYS-011]
+      VID  cinétique chimique correction ex n 02          [MAHDI-PHYS-012]
+      VID  cinétique chimique correction EX n 04          [MAHDI-PHYS-013]
+      VID  cinétique chimique ex n 01                     [MAHDI-PHYS-014]
+      VID  equilibre chimique correction EX n 01          [MAHDI-PHYS-015]
+      VID  equilibre chimique correction EX n 02          [MAHDI-PHYS-016]
+      VID  equilibre chimique correction EX n 03          [MAHDI-PHYS-017]
+      VID  loi d'action de masse                          [MAHDI-PHYS-018]
+      VID  notion equilibre chimique et esterification    [MAHDI-PHYS-019]
+      VID  vitesse d'une réaction chimique                [MAHDI-PHYS-022]
+  <condensateur dpx>
+      VID  condensateur correction ex n 01                [MAHDI-PHYS-024]
+      VID  condensateur correction exercice n 02          [MAHDI-PHYS-025]
+      VID  le condensateur  etude exprémentale            [MAHDI-PHYS-026]
+      VID  le condensateur correction exercice 03         [MAHDI-PHYS-027]
+      VID  le condensateur correction exercice n 04       [MAHDI-PHYS-028]
+      VID  le condensateur etude théorique                [MAHDI-PHYS-029]
+  <oscillations libres amorties dpx>
+      VID  oscillatations amorties etude exprémentale     [MAHDI-PHYS-033]
+      VID  oscillations amorties correction EX n 01       [MAHDI-PHYS-034]
+      VID  oscillations amorties correction EX n 02       [MAHDI-PHYS-035]
+      VID  oscillations amorties correction EX n 03       [MAHDI-PHYS-036]
+      VID  oscillations amorties etude théorique          [MAHDI-PHYS-037]
+  <oscillations non amorties>
+      VID  oscillation non amorties correction EX n 04    [MAHDI-PHYS-043]
+      VID  oscillation non amorties correction EX n 05    [MAHDI-PHYS-044]
+      VID  oscillations entretenues correction EX  n 03   [MAHDI-PHYS-045]
+      VID  oscillations entretenues correction EX n 01    [MAHDI-PHYS-046]
+      VID  oscillations entretenues correction EX n 02    [MAHDI-PHYS-047]
+      VID  oscillations entretenues correction EX n 04    [MAHDI-PHYS-048]
+      VID  oscillations entretenues cours                 [MAHDI-PHYS-049]
+      VID  oscillations non amortie etude théorique parti [MAHDI-PHYS-050]
+      VID  oscillations non amorties correction EX n 01   [MAHDI-PHYS-051]
+      VID  oscillations non amorties correction EX n 03   [MAHDI-PHYS-052]
+      VID  oscillations non amorties etude théoerique par [MAHDI-PHYS-053]
+      VID  oscillations non amorties étude exprémentale   [MAHDI-PHYS-054]
+      VID  oscllations non amortie correction EX n 02     [MAHDI-PHYS-055]
+
+[samia farhani BAC]
+    81 fichiers, 6 dossiers
+  <etude de fonction INFO SC TEC ECO>
+      VID  EX1-etude de fonction V15                      [SAMIA-MATH-004]
+      VID  Interpretations graphiques V16                 [SAMIA-MATH-013]
+      VID  Primitives 2                                   [SAMIA-MATH-016]
+      VID  Primitives1                                    [SAMIA-MATH-017]
+      VID  Primitives3                                    [SAMIA-MATH-018]
+      VID  EX_TAFexercice V14                             [SAMIA-MATH-021]
+      VID  T.A.F corollaire V14                           [SAMIA-MATH-025]
+      VID  T.V.I V12                                      [SAMIA-MATH-026]
+      VID  TAF V13                                        [SAMIA-MATH-027]
+      VID  app T.V.I exercice V12                         [SAMIA-MATH-028]
+      VID  app bijection V11                              [SAMIA-MATH-029]
+      VID  bijection V11                                  [SAMIA-MATH-030]
+      VID  continuité en un réel V05                      [SAMIA-MATH-031]
+      VID  continuité sur I V06                           [SAMIA-MATH-032]
+      VID  exercice f_réciproque exercice V10             [SAMIA-MATH-033]
+      VID  f_composée V08                                 [SAMIA-MATH-034]
+      VID  fonction dérivée V09                           [SAMIA-MATH-035]
+      VID  fonction réciproque V10                        [SAMIA-MATH-036]
+      VID  limites et asymptote oblique V03               [SAMIA-MATH-037]
+      VID  limites et asymptotes V01                      [SAMIA-MATH-038]
+      VID  limites et branche parabolique V04             [SAMIA-MATH-039]
+      VID  nombre dérivé V06                              [SAMIA-MATH-040]
+      VID  prolongement par continuité V07                [SAMIA-MATH-041]
+      VID  relation entre limites et asymptote V02        [SAMIA-MATH-042]
+  <etude de fonction INFO SC TEC ECO/PDF>
+      DOC  Limites et Branches paraboliques               [SAMIA-MATH-022]
+      DOC  TAF                                            [SAMIA-MATH-023]
+      DOC  prolongement par continuite                    [SAMIA-MATH-024]
+      DOC  App-TAF                                        [SAMIA-MATH-061]
+      DOC  App-TVI                                        [SAMIA-MATH-062]
+      DOC  App-bijection                                  [SAMIA-MATH-063]
+      DOC  App-fonction reciproque                        [SAMIA-MATH-064]
+      DOC  C-TAF                                          [SAMIA-MATH-065]
+      DOC  F-Composée                                     [SAMIA-MATH-066]
+      DOC  Fonction reciproque                            [SAMIA-MATH-067]
+      DOC  LimilesetAsymtotes-2                           [SAMIA-MATH-068]
+      DOC  Limite-Asymptote oblique                       [SAMIA-MATH-069]
+      DOC  Limites et Asymtotes-1                         [SAMIA-MATH-070]
+      DOC  TVI                                            [SAMIA-MATH-071]
+      DOC  Th-de la bijection                             [SAMIA-MATH-072]
+      DOC  continuite-2                                   [SAMIA-MATH-073]
+      DOC  continuite                                     [SAMIA-MATH-074]
+      DOC  derivation1-nombre derive                      [SAMIA-MATH-075]
+      DOC  fonction dérivée                               [SAMIA-MATH-076]
+  <nombre complexe INFO SC TEC>
+      VID  12- App-Nombre complexe                        [SAMIA-MATH-001]
+      VID  7- Arg-forme trigonometrique                   [SAMIA-MATH-002]
+      VID  10- Equation dans C                            [SAMIA-MATH-003]
+      VID  13- EX1-nbre cplxe                             [SAMIA-MATH-005]
+      VID  14- EX2-nbre cplxe                             [SAMIA-MATH-006]
+      VID  16- EX2-partie 2                               [SAMIA-MATH-007]
+      VID  15- EX2-partie1                                [SAMIA-MATH-008]
+      VID  11- Exercice -Equation dans C                  [SAMIA-MATH-009]
+      VID  9- Forme exponentielle d'un nombre complexe    [SAMIA-MATH-011]
+      VID  6- formes geometriques et nombres complexes    [SAMIA-MATH-012]
+      VID  3- le conjugué                                 [SAMIA-MATH-014]
+      VID  4- Module d'un nombre complexe                 [SAMIA-MATH-015]
+      VID  5- Representation geometrique-nbre-complexe    [SAMIA-MATH-019]
+      VID  8- Exercice -forme trigonometrique             [SAMIA-MATH-020]
+      VID  1- Nbres-Complexes                             [SAMIA-MATH-043]
+      VID  2- Nbrs-Complexes                              [SAMIA-MATH-044]
+  <nombre complexe INFO SC TEC/PDF>
+      DOC  Nbres-Complexes-1                              [SAMIA-MATH-045]
+      DOC  App-Nombre complexe                            [SAMIA-MATH-077]
+      DOC  Conjugué                                       [SAMIA-MATH-078]
+      DOC  Module d_un nombre complexe                    [SAMIA-MATH-079]
+      DOC  formes geometriques et nombres complexes       [SAMIA-MATH-080]
+  <suites réelles INFO SC TEC ECO>
+      VID  1- généralité                                  [SAMIA-MATH-046]
+      VID  2- Suite Raisonnement par réccurence           [SAMIA-MATH-047]
+      VID  3- sens de variation et convergence            [SAMIA-MATH-048]
+      VID  4- suite et fonction                           [SAMIA-MATH-049]
+      VID  5- operation sur les limites                   [SAMIA-MATH-050]
+      VID  6- Q_possibles                                 [SAMIA-MATH-051]
+      VID  suites_EX1                                     [SAMIA-MATH-059]
+      VID  suites_EX2                                     [SAMIA-MATH-060]
+  <suites réelles INFO SC TEC ECO/PDF>
+      DOC  Questions possibles-suites                     [SAMIA-MATH-052]
+      DOC  ex suite 2                                     [SAMIA-MATH-053]
+      DOC  ex suite1                                      [SAMIA-MATH-054]
+      DOC  généralité                                     [SAMIA-MATH-055]
+      DOC  operation sur les limites                      [SAMIA-MATH-056]
+      DOC  suite et fonction                              [SAMIA-MATH-057]
+      DOC  suite-V02                                      [SAMIA-MATH-058]
+      DOC  suite-sens de variation-Convergence            [SAMIA-MATH-081]
+      DOC  séance_1(suites)                               [SAMIA-MATH-082]
+
+[Feten Dali BAC]
+    77 fichiers, 8 dossiers
+  <Geo>
+      VID  lesson 43                                      [FETEN-GEO-001]
+      VID  lesson 44                                      [FETEN-GEO-002]
+  <Geo/المحور الأول _ مجال عالمي مترابط و متفاوت/الدرس الأول _ الأدفاق التجارية>
+      DOC  الأدفاق التجارية                               [FETEN-GEO-003]
+      VID  الأدفاق التجارية XXX                           [FETEN-GEO-004]
+      DOC  الأدفاق المالية                                [FETEN-GEO-005]
+      VID  الأدفاق المالية                                [FETEN-GEO-006]
+      DOC  الأدفاق المالية                                [FETEN-GEO-007]
+      DOC  الأطراف المتدخلة في الأدفاق التجارية العالمية  [FETEN-GEO-008]
+      VID  الأطراف المتدخلة في الأدفاق التجارية العالمية  [FETEN-GEO-009]
+      VID  التفاوت في التقدم و تركيبة المجال العالمي      [FETEN-GEO-010]
+      VID  تركيبة المجال العالمي _ بلدان الجنوب CADRAGE   [FETEN-GEO-011]
+      VID  تركيبة المجال العالمي _ بلدان الشمال CADRAGE   [FETEN-GEO-012]
+      VID  عوامل نمو الأدفاق التجارية العالمية            [FETEN-GEO-013]
+      DOC  عوامل نمو الأدفاق المالية في العالم            [FETEN-GEO-014]
+      DOC  عوامل نمو الادفاق التجارية العالمية            [FETEN-GEO-015]
+      VID  مجال عالمي مترابط و متفاوت                     [FETEN-GEO-016]
+      VID  مظاهر تفاوت مستويات التنمية البشرية_           [FETEN-GEO-017]
+      DOC  نظام تجاري عالمي غير عادل                      [FETEN-GEO-018]
+      VID  نظام تجاري عالمي غير عادل                      [FETEN-GEO-019]
+  <Geo/المحور الأول _ مجال عالمي مترابط و متفاوت/المنهجية>
+      VID  CADRAGEالحصة المنهجية عدد 1 _ دراسة إحصائيات   [FETEN-GEO-020]
+      VID  إنجاز خريطة تركيبة المجال العالمي CADRAGE      [FETEN-GEO-021]
+      DOC  إنجاز خريطة تركيبة المجال العالمي              [FETEN-GEO-022]
+      VID  إنجاز خريطة و تعليق عليها                      [FETEN-GEO-023]
+      DOC  إنجاز خريطة و تعليق عليها                      [FETEN-GEO-024]
+      DOC  الحصة المنهجية عدد 2 في الجغرافيا              [FETEN-GEO-025]
+      DOC  الحصة المنهجية في الجغرافيا عدد 1              [FETEN-GEO-026]
+      VID  تقنيات إنجاز رسم بياني بالأعمدة أو هيستوغرام   [FETEN-GEO-027]
+      VID  تقنيات إنجاز رسم بياني بالدائرة أو نصف دائرة   [FETEN-GEO-028]
+      VID  تقنيات إنجاز رسم بياني في شكل منحنى            [FETEN-GEO-029]
+      DOC  تقنيات إنجاز سم بياني في شكل منحنى             [FETEN-GEO-030]
+      DOC  تقنيات إنجاز رسم بياني بالدائرة و نصف الدائ [FETEN-GEO-031]
+      DOC  تقنيات إنجازرسم بياني بالأعمدة أو هيستوغرام [FETEN-GEO-032]
+      VID  منهجية إنجاز مقال                              [FETEN-GEO-033]
+  <Hist>
+      VID  lesson 23.mp4  QUALITY                         [FETEN-HIST-001]
+      VID  lesson 42                                      [FETEN-HIST-002]
+  <Hist/المحور الأول _ العالم المعاصر>
+      VID  أزمة الثلاثنيات CADRAGE                        [FETEN-HIST-015]
+      DOC  ازمة الثلاثينات                                [FETEN-HIST-016]
+      VID  الثورة البلشفية CADRAGE                        [FETEN-HIST-017]
+      DOC  الثورة البلشفية و نشأة الاتحاد السوفياتي إلى س [FETEN-HIST-018]
+      VID  الحرب العالمية الأولى CADRAGE                  [FETEN-HIST-019]
+      DOC  الحرب العالمية الأولى                          [FETEN-HIST-020]
+      VID  الحرب العالمية الثانية CADRAGE                 [FETEN-HIST-021]
+      VID  الحلول الإقتصادية و السياسية للأزمة CADRAGE    [FETEN-HIST-022]
+      DOC  الحلول الاقتصادية و السياسية للأزمة           [FETEN-HIST-023]
+      VID  نتائج الحرب العالمية الثانية CADRAGE           [FETEN-HIST-024]
+  <Hist/المحور الأول _ العالم المعاصر ( تونس )>
+      DOC  تطور السياسة الفرنسية بتونس بين 1939 و 1943    [FETEN-HIST-003]
+      VID  تطور السياسة بتونس و ردود فعل سلط الحماية بين  [FETEN-HIST-004]
+      VID  تطور السياسية الفرنسية بتونس بين 1939 و 1943   [FETEN-HIST-005]
+      DOC  تطور السياسية بتونس و ردود فعل سلط الحماية بين [FETEN-HIST-006]
+      VID  تونس أثناء الحرب العالمية الثانية              [FETEN-HIST-007]
+      DOC  تونس اثناء الحرب العالمية الثانية              [FETEN-HIST-008]
+      VID  تونس في الثلاثنيات                             [FETEN-HIST-009]
+      DOC  تونس في الثلاثنيات                             [FETEN-HIST-010]
+      VID  تونس في العشرينات CADRAGE                      [FETEN-HIST-011]
+      DOC  تونس في العشرينات                              [FETEN-HIST-012]
+      VID  مظاهر تجذر العمل الوطني في الثلاثنيات QUALITY_ [FETEN-HIST-013]
+      DOC  مظاهر تجذّر العمل الوطني في الثلاثينات         [FETEN-HIST-014]
+  <Hist/المحور الثاني _ العالم المعاصر بعد 1945>
+      VID  إستقلال المستعمرات                             [FETEN-HIST-025]
+      DOC  استقلال المستعمرات                             [FETEN-HIST-026]
+      VID  العلاقات الدولية  من الحرب الباردة إلى إنهيار  [FETEN-HIST-027]
+      DOC  العلاقات الدولية من الحرب الباردة إلى انهيار  [FETEN-HIST-028]
+  <Hist/المنهجية>
+      VID  إصلاح حصة المنهجية  في التاريخ                 [FETEN-HIST-029]
+      DOC  إصلاح حصة المنهجية في التاريخ                  [FETEN-HIST-030]
+      DOC  الحصة المنهجية عدد 1 في التاريخ                [FETEN-HIST-031]
+      VID  تقنيات إنجاز سلم زمني                          [FETEN-HIST-032]
+      DOC  تقنيات إنجاز سلم زمني                          [FETEN-HIST-033]
+      VID  حصة منهجية عدد 1 في التاريخ                    [FETEN-HIST-034]
+      DOC  دراسة وثائق في التاريخ  2                      [FETEN-HIST-035]
+      DOC  دراسة وثائق في التاريخ                         [FETEN-HIST-036]
+      VID  دراسة وثائق في الحرب العالمية 1                [FETEN-HIST-037]
+      DOC  مقال في التاريخ PDF                            [FETEN-HIST-038]
+      VID  مقال في التاريخ مع الإصلاح حول تونس أثناء الحر [FETEN-HIST-039]
+      DOC  مقال في التاريخ مع الاصلاح                     [FETEN-HIST-040]
+      VID  مقال في التاريخ                                [FETEN-HIST-041]
+      VID  منهجية إنجاز مقال في التاريخ                   [FETEN-HIST-042]
+      DOC  منهجية إنجاز مقال في مادّة التاريخ من خلال مثا [FETEN-HIST-043]
+      VID  منهجية دراسة وثائق                             [FETEN-HIST-044]
+
+[nada jbehi BAC]
+    64 fichiers, 13 dossiers
+  <(racine)>
+      DOC  Unit 2  Lesson 3 + 4 Virtual Schools           [NADA-ANG-001]
+      DOC  Unit 2 Lesson 1 School Related Words           [NADA-ANG-002]
+      DOC  Unit 2 Lesson 2 Education for all              [NADA-ANG-003]
+      DOC  Unit 2 Lesson 5 Comparing Educational Systems  [NADA-ANG-004]
+      DOC  Unit 2 Lesson 6 Age Or                         [NADA-ANG-005]
+      DOC  Unit 2 Lesson 7 Lifelong Learning              [NADA-ANG-006]
+      DOC  Unit 3 Lesson 1 Inventions Related Words       [NADA-ANG-007]
+      DOC  Unit 3 Lesson 2 Technology A Bless In Disguise [NADA-ANG-008]
+      DOC  Unit 3 Lesson 3 Interviewing the father of the [NADA-ANG-009]
+      DOC  Unit 3 Lesson 5 Women Choose to Opt out        [NADA-ANG-010]
+      DOC  Unit 3 Lesson 6 Brain Drain                    [NADA-ANG-011]
+      DOC  Unit 3 Lesson 7 Scientists' Achievemnts        [NADA-ANG-012]
+      DOC  Unit 2 Lesson 1 School Related Words           [NADA-ANG-015]
+      DOC  Unit 2 Lesson 2 Education for all              [NADA-ANG-017]
+      DOC  Unit 2  Lesson 3 + 4 Virtual Schools           [NADA-ANG-021]
+      DOC  Unit 2 Lesson 5 Comparing Educational Systems  [NADA-ANG-027]
+      DOC  Unit 2 Lesson 6 Age Or                         [NADA-ANG-032]
+      DOC  Unit 2 Lesson 7 Lifelong Learning              [NADA-ANG-039]
+      DOC  Unit 3 Lesson 1 Inventions Related Words       [NADA-ANG-042]
+      DOC  Unit 3 Lesson 2 Technology A Bless In Disguise [NADA-ANG-048]
+      DOC  Unit 3 Lesson 4 Prize Winners                  [NADA-ANG-050]
+      DOC  Unit 3 Lesson 5 Women Choose to Opt out        [NADA-ANG-060]
+      DOC  Unit 3 Lesson 6 Brain Drain                    [NADA-ANG-061]
+      DOC  Unit 3 Lesson 7 Scientists' Achievemnts        [NADA-ANG-068]
+  <unit 2 L1>
+      VID  Unit 2 Lesson 1 Grammar Part                   [NADA-ANG-013]
+      VID  Unit 2 Lesson 1 Language Part                  [NADA-ANG-014]
+      VID  Unit 2 Lesson 1 Vocabulary Part                [NADA-ANG-016]
+  <unit 2 L2>
+      VID  Unit 2 Lesson 2 Grammar Part                   [NADA-ANG-018]
+      VID  Unit 2 Lesson 2 Language Part                  [NADA-ANG-019]
+      VID  Unit 2 Lesson 2 Vocabulary Part                [NADA-ANG-020]
+  <unit 2 L5>
+      VID  Unit 2 Lesson 5 Grammar Part                   [NADA-ANG-028]
+      VID  Unit 2 Lesson 5 Language Part                  [NADA-ANG-029]
+      VID  Unit 2 Lesson 5 Reading Part                   [NADA-ANG-030]
+      VID  Unit 2 Lesson 5 Vocabulary Part                [NADA-ANG-031]
+  <unit 2 L6>
+      VID  Unit 2 Lesson 6 Grammar Part 1                 [NADA-ANG-033]
+      VID  Unit 2 Lesson 6 Grammar Part 2                 [NADA-ANG-034]
+      VID  Unit 2 Lesson 6 Language Part                  [NADA-ANG-035]
+      VID  Unit 2 Lesson 6 Vocabulary Part                [NADA-ANG-036]
+  <unit 2 L7>
+      VID  Unit 2 Lesson 7 Grammar Part                   [NADA-ANG-037]
+      VID  Unit 2 Lesson 7 Language Part                  [NADA-ANG-038]
+      VID  Unit 2 Lesson 7 Vocabulary Part                [NADA-ANG-040]
+  <unit 3 L1>
+      VID  Unit 3 Lesson 1 Grammar Part                   [NADA-ANG-041]
+      VID  Unit 3 Lesson 1 Language Part                  [NADA-ANG-043]
+      VID  Unit 3 Lesson 1 Vocabulary                     [NADA-ANG-044]
+      VID  Unit 3 Lesson 1 Vocobulary Part 2              [NADA-ANG-045]
+  <unit 3 L2>
+      VID  Unit 3 Lesson 2 Grammar Part                   [NADA-ANG-046]
+      VID  Unit 3 Lesson 2 Language Part                  [NADA-ANG-047]
+      VID  Unit 3 Lesson 2 Vocabulary Part                [NADA-ANG-049]
+  <unit 3 L4>
+      VID  Unit 3 Lesson 4 Vocabulary Grammar Parts       [NADA-ANG-051]
+  <unit 4>
+      VID  Lesson 2 Attitudes Unit 4                      [NADA-ANG-052]
+      VID  lesson 2 grammar                               [NADA-ANG-053]
+      VID  lesson 2 language practice                     [NADA-ANG-054]
+      VID  lesson 2 vocab                                 [NADA-ANG-055]
+      VID  Unit 4_Lesson 1 Life Concerns_Part 1_Vocabular [NADA-ANG-056]
+  <unit-3-lesson-5>
+      VID  Unit 3 Language Practice Part                  [NADA-ANG-057]
+      VID  Unit 3 Lesson 5 Grammar Part                   [NADA-ANG-058]
+      VID  Unit 3 Lesson 5 Vocabulary Part                [NADA-ANG-059]
+  <unit-3-lesson-6>
+      VID  Unit 3 Lesson 6 Grammar Part                   [NADA-ANG-062]
+      VID  Unit 3 Lesson 6 Language Part                  [NADA-ANG-063]
+      VID  Unit 3 Lesson 6 Vocabulary Part                [NADA-ANG-064]
+      VID  Unit 3 Lesson 6 Writing Part                   [NADA-ANG-065]
+  <unit-3-lesson-7-vocabulary-grammar-language-parts>
+      VID  Unit 3 Lesson 7 Grammar Part                   [NADA-ANG-066]
+      VID  Unit 3 Lesson 7 Language Part                  [NADA-ANG-067]
+      VID  Unit 3 Lesson 7 Vocabulary Part                [NADA-ANG-069]
+
+[najeh farhani BAC]
+    58 fichiers, 9 dossiers
+  <(racine)>
+      DOC  المنزع العقلي عند الجاحظ                       [NAJEH-AR-002]
+      DOC  اصلاح موضوع المعري                             [NAJEH-AR-011]
+      DOC  المعري2                                        [NAJEH-AR-015]
+      DOC  لرواية العربية فيديو                           [NAJEH-AR-027]
+      DOC  موضوع فيديو                                    [NAJEH-AR-028]
+      DOC  11                                             [NAJEH-AR-030]
+      DOC  المحور الأول فيد                               [NAJEH-AR-046]
+      DOC  المحور الثاني مع فرض فيديو                     [NAJEH-AR-053]
+      DOC  محور 3 فيديو                                   [NAJEH-AR-059]
+      DOC  في الفكر والفن                                 [NAJEH-AR-063]
+  <LETTRES/محور 2 المنزع العقلي عند الجاحظ>
+      VID  1 مقدمة محور الجاحظ                            [NAJEH-AR-001]
+      VID  المنزع العقلي في  4 الاسلوب الحجاجي            [NAJEH-AR-003]
+      VID  المنزع العقلي في الفكر الاعتزالي 3             [NAJEH-AR-004]
+      VID  المنهج العلمي 2                                [NAJEH-AR-005]
+      VID  موضوع محور 5الجاحظ                             [NAJEH-AR-006]
+  <LETTRES/محور 3 رسالة الغفران للمعري>
+      VID  3 المكان والزمان والسرد والوصف  والحوار        [NAJEH-AR-007]
+      VID  5 الاضحاك                                      [NAJEH-AR-008]
+      VID  6 الاستطراد والهزل                             [NAJEH-AR-009]
+      VID  7 القضايا في رسالة المعري                      [NAJEH-AR-010]
+      VID  البنية القصصية 1 منطق الأحداث                  [NAJEH-AR-012]
+      VID  البنية القصصية 2 الشخصيات                      [NAJEH-AR-013]
+      VID  الخيال 4                                       [NAJEH-AR-014]
+      VID  تمهيد رسالة الغفران                            [NAJEH-AR-016]
+      VID  موضوع المعري                                   [NAJEH-AR-017]
+  <LETTRES/محور 5 الرواية>
+      VID  1 تمهيد                                        [NAJEH-AR-018]
+      VID  2 بناء الأثر                                   [NAJEH-AR-019]
+      VID  4 الشخصيات                                     [NAJEH-AR-020]
+      VID  5 الزمان والمكان                               [NAJEH-AR-021]
+      VID  6  الأصالة والمعاصرة                           [NAJEH-AR-022]
+      VID  7 مسيرة البطل وابعادها الرمزية                 [NAJEH-AR-023]
+      VID  8 القضايا                                      [NAJEH-AR-024]
+      VID  اصلاح مقال الرواية                             [NAJEH-AR-025]
+      VID  الخطاب الروائي والوصف والحوار 3                [NAJEH-AR-026]
+  <LETTRES/محور الحماسة1>
+      VID  1 الايقاع                                      [NAJEH-AR-029]
+      VID  3 الصورة الشعرية                               [NAJEH-AR-031]
+      VID  3 المعجم                                       [NAJEH-AR-032]
+      VID  المعاني الحماسية                               [NAJEH-AR-033]
+      VID  النقاش                                         [NAJEH-AR-034]
+      VID  تدريب علو موضوع حماسي                          [NAJEH-AR-035]
+  <LETTRES/مسرحية مغامرة رأس المملوك جابر 4>
+      VID  1 تمهيد محور المسرحية مغامرة راس المملوك جابر  [NAJEH-AR-036]
+      VID  2 المسرحية الخصائص الفنية بناء النص المسرحي وا [NAJEH-AR-037]
+      VID  3 الروافد الغربية وعناصر الغرجة                [NAJEH-AR-038]
+      VID  4 الشخصيات                                     [NAJEH-AR-039]
+      VID  5 الحوار المسرحي                               [NAJEH-AR-040]
+      VID  اصلاح موضوع حول المسرحية                       [NAJEH-AR-041]
+      VID  القضايا المطروحة 6 في المسرحية                 [NAJEH-AR-042]
+  <SCTFQ/محور 1 في التفكير العلمي>
+      VID  3 العلوم العربية                               [NAJEH-AR-043]
+      VID  التدرب على فقرة حجاجية 4                       [NAJEH-AR-044]
+      VID  العوامل التي ساعدت العرب على الإبداع 1         [NAJEH-AR-045]
+      VID  المناهج العلمية وصفات العالم المسلم 2          [NAJEH-AR-047]
+  <SCTFQ/محور 2 في الأدب والفن>
+      VID  1 الأدب والشعر                                 [NAJEH-AR-048]
+      VID  2 الأدب نثرا ونقدا                             [NAJEH-AR-049]
+      VID  3 الفن                                         [NAJEH-AR-050]
+      VID  4 الاجابة على أهم الأسئلة                      [NAJEH-AR-051]
+      VID  اصلاح فرض حول محور الأدب والفن 5               [NAJEH-AR-052]
+  <SCTFQ/محور 4 في الفكر والفن>
+      VID  2 العلم والتكنولوجيا والحوار والديمقراطية و ال [NAJEH-AR-060]
+      VID  العولمة1                                       [NAJEH-AR-061]
+      VID  الفن 3                                         [NAJEH-AR-062]
+
+[Nedra zguem INFO]
+    55 fichiers, 9 dossiers
+  <ECO/trimestre 1/chapI_ Gestion de données/partie2_ création de requête>
+      DOC  définition de requête                          [NEDRA-INFO-001]
+      VID  définition de requête                          [NEDRA-INFO-002]
+      DOC  requête sélection et paramétré                 [NEDRA-INFO-003]
+      VID  requête sélection et requête paramétrée partie [NEDRA-INFO-004]
+      VID  requête sélection et requête paramétrée partie [NEDRA-INFO-005]
+  <ECO/trimestre 1/chapI_ Gestion de données/partieI_ création base de données>
+      VID  création base de données pratique              [NEDRA-INFO-007]
+      VID  création base de données                       [NEDRA-INFO-008]
+      DOC  création de base de données                    [NEDRA-INFO-009]
+      VID  création de relation entre table pratique      [NEDRA-INFO-010]
+      VID  définition de relation entre tables            [NEDRA-INFO-011]
+      VID  introduction aux base de données               [NEDRA-INFO-012]
+      DOC  introduction base de données                   [NEDRA-INFO-013]
+      VID  tp1_création de base de données                [NEDRA-INFO-014]
+  <ECO/trimestre 2/chapI_Gestion de données/Partie III_types de reqûtes>
+      DOC  Le calcul dans une requête                     [NEDRA-INFO-015]
+      VID  Requête ajout et suppression                   [NEDRA-INFO-016]
+      VID  Requête de MAJ                                 [NEDRA-INFO-017]
+      VID  calcul dans une requête                        [NEDRA-INFO-018]
+      DOC  requête MAJ                                    [NEDRA-INFO-019]
+      DOC  requête supp et ajout                          [NEDRA-INFO-020]
+  <ECO/trimestre 2/exportation de données>
+      DOC  Exportations                                   [NEDRA-INFO-021]
+      VID  exporatation de données                        [NEDRA-INFO-022]
+  <ECO/trimestre 3/pandas>
+      DOC  pandas_tp1                                     [NEDRA-INFO-023]
+      DOC  pandas_tp1_traité                              [NEDRA-INFO-024]
+      DOC  pandas_tp2                                     [NEDRA-INFO-025]
+      VID  pandas_tp2                                     [NEDRA-INFO-026]
+      DOC  pandas_tp2_traité                              [NEDRA-INFO-027]
+      DOC  pandas_tp3                                     [NEDRA-INFO-028]
+      VID  pandas_tp3                                     [NEDRA-INFO-029]
+      DOC  pandas_tp3_traité                              [NEDRA-INFO-030]
+      DOC  pandas_tp4                                     [NEDRA-INFO-031]
+      VID  pandas_tp4                                     [NEDRA-INFO-032]
+      DOC  pandas_tp4_traité                              [NEDRA-INFO-033]
+      VID  tp1_pandas                                     [NEDRA-INFO-034]
+  <LETTRES/trimestre 1/chapII_ Tableur>
+      VID  Excel_partie1                                  [NEDRA-INFO-035]
+      DOC  tableur_partie1                                [NEDRA-INFO-036]
+  <LETTRES/trimestre 1/chapI_ Traitement de texte>
+      VID  Traitement de texte_partie3                    [NEDRA-INFO-037]
+      VID  traitement de texte partie1                    [NEDRA-INFO-038]
+      DOC  traitement de texte_ partie1                   [NEDRA-INFO-039]
+      DOC  traitement de texte_ partie2                   [NEDRA-INFO-040]
+      DOC  traitement de texte_ partie3                   [NEDRA-INFO-041]
+      DOC  traitement de texte_ partie4                   [NEDRA-INFO-042]
+      VID  traitement de texte_partie2                    [NEDRA-INFO-043]
+      VID  traitement de texte_partie4                    [NEDRA-INFO-044]
+  <LETTRES/trimestre 2/chapII Tableur>
+      VID  Excel_partie2_calcul                           [NEDRA-INFO-045]
+      VID  La fonction SI dans Excel                      [NEDRA-INFO-046]
+      DOC  fonction SI avec Excel                         [NEDRA-INFO-047]
+      DOC  tableur_ tri_filtre_validation de données_mise [NEDRA-INFO-048]
+      DOC  tableur_calcul dans excel                      [NEDRA-INFO-049]
+      VID  tableur_tri_filtre_validation de données_mise  [NEDRA-INFO-050]
+      VID  tri, filtre et graphique avec Excel            [NEDRA-INFO-051]
+      VID  validation de données avec Excel               [NEDRA-INFO-052]
+      DOC  validation données_ filtre_ graphique_traité   [NEDRA-INFO-053]
+  <LETTRES/trimestre 3/examen pratique>
+      VID  correction d_examen pratique_partie1           [NEDRA-INFO-054]
+      VID  correction examen pratique partie2             [NEDRA-INFO-055]
+      DOC  correction_examen_pratique                     [NEDRA-INFO-056]
+
+[eline bac]
+    55 fichiers, 5 dossiers
+  <(racine)>
+      DOC  l_équilibre du conso                           [ELINE-ECO-002]
+      DOC  Méthodologie de la dissertation économique-Cop [ELINE-ECO-004]
+      DOC  PDF V01                                        [ELINE-ECO-006]
+      DOC  PDF V02                                        [ELINE-ECO-007]
+      DOC  secion 2 le choix citoyen du consommateur bac  [ELINE-ECO-008]
+      DOC  contrainte budgétaire du producteur            [ELINE-ECO-014]
+      DOC  fonction de production partie 1                [ELINE-ECO-015]
+      DOC  la fonction de production cours partie2        [ELINE-ECO-016]
+      DOC  SECTION 2 le choix citoyen du producteur-Copy  [ELINE-ECO-019]
+      DOC  Choix économique du consommateur-Copy          [ELINE-ECO-021]
+      DOC  Ex Choix économique -Copy(1)                   [ELINE-ECO-022]
+      DOC  Ex Choix économique -Copy(2)                   [ELINE-ECO-023]
+      DOC  Ex Choix économique -Copy                      [ELINE-ECO-024]
+      DOC  Exercice 2 choix economique du consommateur-Co [ELINE-ECO-025]
+      DOC  Exercice 3-Copy (1) équilibre de consommateur  [ELINE-ECO-029]
+      DOC  Fonction de la demande-Copy                    [ELINE-ECO-030]
+      DOC  le reste de l_exercice 3                       [ELINE-ECO-032]
+      DOC  Pdf problème économique part 2                 [ELINE-ECO-034]
+      DOC  Dissertations 2                                [ELINE-ECO-042]
+      DOC  Dissertations                                  [ELINE-ECO-043]
+      DOC  Exercice choix économique du producteur-Copy   [ELINE-ECO-044]
+      DOC  Exercice mesure de la croissance économique    [ELINE-ECO-045]
+      DOC  Exercice sur l’équilibre du producteur-Copy    [ELINE-ECO-047]
+      DOC  la croissance intensive                        [ELINE-ECO-052]
+      DOC  la fonction de la demande-Copy                 [ELINE-ECO-053]
+      DOC  L’équilibre de producteur exercice 3           [ELINE-ECO-055]
+  <cours TH1>
+      VID  choix citoyen du cteur                         [ELINE-ECO-001]
+      VID  L_équilibre du consommateur ( cours)           [ELINE-ECO-003]
+      VID  Méthodologie de la dissertation économique     [ELINE-ECO-005]
+      VID  V01                                            [ELINE-ECO-009]
+      VID  V02                                            [ELINE-ECO-010]
+      VID  V3                                             [ELINE-ECO-011]
+  <cours TH2>
+      VID  Choix citoyen du producteur                    [ELINE-ECO-012]
+      VID  Contrainte budgétaire de producteur            [ELINE-ECO-013]
+      VID  La fonction de production partie 2             [ELINE-ECO-017]
+      VID  La fonction de production_                     [ELINE-ECO-018]
+  <exercices TH1>
+      VID  choix eco du consommateur                      [ELINE-ECO-020]
+      VID  exercice 2 part 2                              [ELINE-ECO-026]
+      VID  exercice 2                                     [ELINE-ECO-027]
+      VID  exercice 3 (sesseion principal 2024)           [ELINE-ECO-028]
+      VID  fonction de la demande                         [ELINE-ECO-031]
+      VID  Le reste de l_exercice n°3_                    [ELINE-ECO-033]
+      VID  Problème part 2                                [ELINE-ECO-035]
+      VID  Problème part 3_                               [ELINE-ECO-036]
+      VID  problème économique part 2                     [ELINE-ECO-037]
+      VID  probléme part 1                                [ELINE-ECO-038]
+  <exercices TH2>
+      VID  Choix économique du producteur exercice 1      [ELINE-ECO-039]
+      VID  Dissertation 1                                 [ELINE-ECO-040]
+      VID  Dissertation 2                                 [ELINE-ECO-041]
+      VID  Exercice mesure de la croissance économique_   [ELINE-ECO-046]
+      VID  L_équilibre du producteur exercice n3          [ELINE-ECO-048]
+      VID  L_équilibre du producteur le reste de l_exerci [ELINE-ECO-049]
+      VID  L_équilibre du producteur                      [ELINE-ECO-050]
+      VID  La croissance intensive                        [ELINE-ECO-051]
+      VID  La fonction de la demande                      [ELINE-ECO-054]
+
+[mohssen SVT]
+    46 fichiers, 19 dossiers
+  <(racine)>
+      DOC  pdf                                            [MOHSSEN-SVT-002]
+      DOC  exercice-femme2023 (1)                         [MOHSSEN-SVT-004]
+      DOC  exercice typique procréation                   [MOHSSEN-SVT-006]
+      DOC  qcm dc 1 2022                                  [MOHSSEN-SVT-007]
+      DOC  Exercice 1                                     [MOHSSEN-SVT-009]
+      DOC  Exercice 2                                     [MOHSSEN-SVT-010]
+      DOC  méthodologie de résolution d'un exercice de  g [MOHSSEN-SVT-012]
+      DOC  exercice génétique des diploides 1             [MOHSSEN-SVT-014]
+      DOC  méthodologie génétique des diploides           [MOHSSEN-SVT-016]
+      DOC  cours 1 la fonction reproductrice chez  l_homm [MOHSSEN-SVT-017]
+      DOC  nidation et role du placenta                   [MOHSSEN-SVT-020]
+      DOC  L 11 maitrise de la procréation                [MOHSSEN-SVT-021]
+      DOC  Fonctions des testicules2023                   [MOHSSEN-SVT-023]
+      DOC  L3 controle de l_activite testiculaire cours   [MOHSSEN-SVT-026]
+      DOC  la fonction reproductrice chez la femme        [MOHSSEN-SVT-028]
+      DOC  la fonction reproductrice chez la femme        [MOHSSEN-SVT-030]
+      DOC  cycles sexuls                                  [MOHSSEN-SVT-031]
+      DOC  cycle ovarien hormonal202                      [MOHSSEN-SVT-033]
+      DOC  L8 regulation du cycle sexul                   [MOHSSEN-SVT-035]
+      DOC  L9 fécondation                                 [MOHSSEN-SVT-037]
+      DOC  L 7 T 2 hérédité autosomique - Copie           [MOHSSEN-SVT-039]
+      DOC  L 7 T 2 hérédité autosomique                   [MOHSSEN-SVT-040]
+      DOC  deux gènes independants 2027                   [MOHSSEN-SVT-042]
+      DOC  deux gènes independants                        [MOHSSEN-SVT-043]
+      DOC  deux gènes liés liaison partielle              [MOHSSEN-SVT-045]
+      DOC  deux gènes liés liaison partielle              [MOHSSEN-SVT-047]
+      DOC  deux gènes liés liaison totale                 [MOHSSEN-SVT-049]
+      DOC  brassage de l'IG au cours de la reproduction s [MOHSSEN-SVT-050]
+  <trimestre 1/exercices théme 1/exercices thème 1/Exercice typique  homme>
+      VID  Exercice typique  homme                        [MOHSSEN-SVT-001]
+  <trimestre 1/exercices théme 1/exercices thème 1/exercice typique femme>
+      VID  exercice typique femme                         [MOHSSEN-SVT-003]
+  <trimestre 1/exercices théme 1/exercices thème 1/exercice typique procréation>
+      VID  exercice typique procréation                   [MOHSSEN-SVT-005]
+  <trimestre 1/exercices théme 1/exercices thème 1/qcm reproduction humaine et santé>
+      VID  qcm reproduction humaine et santé              [MOHSSEN-SVT-008]
+  <trimestre 1/exercices théme 2/exercices genetique humaine/méthodologie de résolution d'un exercice de  génétique humaine>
+      VID  méthodologie de résolution d'un exercice de  g [MOHSSEN-SVT-011]
+  <trimestre 1/exercices théme 2/exercices génétique formelle/exercice génétique des diploides 1>
+      VID  exercice génétique des diploides 1             [MOHSSEN-SVT-013]
+  <trimestre 1/exercices théme 2/exercices génétique formelle/méthodologie génétique des diploides>
+      VID  méthodologie génétique des diploides           [MOHSSEN-SVT-015]
+  <trimestre 1/théme 1 Reproduction humaine et santé/cours 11>
+      VID  Maitrise de la procréation                     [MOHSSEN-SVT-022]
+  <trimestre 1/théme 1 Reproduction humaine et santé/cours 2>
+      VID  L2 WA                                          [MOHSSEN-SVT-024]
+  <trimestre 1/théme 1 Reproduction humaine et santé/cours 3>
+      VID  L3                                             [MOHSSEN-SVT-025]
+  <trimestre 1/théme 1 Reproduction humaine et santé/cours 4>
+      VID  L4    La fonction reproductrice chez la femme  [MOHSSEN-SVT-027]
+  <trimestre 1/théme 1 Reproduction humaine et santé/cours 6>
+      VID  L6 cycle sexuels                               [MOHSSEN-SVT-032]
+  <trimestre 1/théme 1 Reproduction humaine et santé/cours 7>
+      VID  L7 cycle ovarien hormonal                      [MOHSSEN-SVT-034]
+  <trimestre 1/théme 1 Reproduction humaine et santé/cours 9>
+      VID  procréation 1                                  [MOHSSEN-SVT-038]
+  <trimestre 1/théme 2 la génétique (cours 12)/L 3>
+      VID  deux gènes indépendants                        [MOHSSEN-SVT-044]
+  <trimestre 1/théme 2 la génétique (cours 12)/L 4>
+      VID  deux gènes liés liaison partielle              [MOHSSEN-SVT-046]
+  <trimestre 1/théme 2 la génétique (cours 12)/L 5>
+      VID  deux gènes liés liaison  totale                [MOHSSEN-SVT-048]
+  <trimestre 1/théme 2 la génétique (cours 12)/L1 brassage de l'IG au cours de la reproduction sexuée>
+      VID  brassage de l'information génétique2025        [MOHSSEN-SVT-051]
+
+[atef HM electrique BAC]
+    30 fichiers, 14 dossiers
+  <(racine)>
+      DOC  MIKROC 1 interruption2026                      [ATEF-ELEC-002]
+      DOC  LOGIQUE SEQUENTEILLE 2 GRAFCET SYNCHRONISE-202 [ATEF-ELEC-004]
+      DOC  MIKROC 2 convertisseur2026                     [ATEF-ELEC-006]
+      DOC  MIKROC 3 Timer02026                            [ATEF-ELEC-007]
+      DOC  CIRCUIT 2 COMBINATOIRRE ADDITIONNEUR binaire e [ATEF-ELEC-010]
+      DOC  CIRCUIT COMBINATOIRRE SOUSTRACTEUR             [ATEF-ELEC-011]
+      DOC  CIRCUIT 4 COMBINATOIRRE comparateur-2026       [ATEF-ELEC-013]
+      DOC  CIRCUIT 3 COMBINATOIRRE MUX ET DMUX-2026       [ATEF-ELEC-015]
+      DOC  CIRCUIT 5 COMBINATOIRRE UAL-2026               [ATEF-ELEC-017]
+      DOC  LOGIQUE SEQUENTEILLE 1 COMPTEUR-2026           [ATEF-ELEC-020]
+      DOC  serie circuit combinatoire-2026                [ATEF-ELEC-021]
+      DOC  serie circuit combinatoire2026-CORRECTION      [ATEF-ELEC-023]
+      DOC  serie interruption-correction                  [ATEF-ELEC-024]
+      DOC  serie interruption                             [ATEF-ELEC-025]
+      DOC  serie conversion 2026                          [ATEF-ELEC-027]
+      DOC  serie conversion2026-correction                [ATEF-ELEC-028]
+      DOC  serie conversion2026                           [ATEF-ELEC-029]
+  <01- MIKROC 1 interruption>
+      VID  interruption                                   [ATEF-ELEC-001]
+  <02- MIKROC 2 convertisseur>
+      VID  convertion                                     [ATEF-ELEC-005]
+  <03- MIKROC 3 Timer>
+      VID  timer                                          [ATEF-ELEC-008]
+  <04- CIRCUIT  COMBINATOIRRE ADDITIONNEUR binaire et BCD>
+      VID  additionneur BCD et BINAIRE                    [ATEF-ELEC-009]
+  <05- CIRCUIT COMBINATOIRRE SOUSTRACTEUR>
+      VID  soustracteur binaire                           [ATEF-ELEC-012]
+  <06- CIRCUIT  COMBINATOIRRE comparateur>
+      VID  les comparateur                                [ATEF-ELEC-014]
+  <07- CIRCUIT  COMBINATOIRRE MUX ET DMUX>
+      VID  MUX ET DMUX                                    [ATEF-ELEC-016]
+  <08- CIRCUIT  COMBINATOIRRE UAL>
+      VID  UNITE ARITHMETIQUE ET LOGIQUE                  [ATEF-ELEC-018]
+  <09- LOGIQUE SEQUENTEILLE 1 COMPTEUR>
+      VID  compteur                                       [ATEF-ELEC-019]
+  <10- LOGIQUE SEQUENTEILLE 2 GRAFCET SYNCHRONISE>
+      VID  grafcet                                        [ATEF-ELEC-003]
+  <serie circuit combinatoire2026>
+      VID  serie circuit combinatoire                     [ATEF-ELEC-022]
+  <serie interruption>
+      VID  serie micro interruption                       [ATEF-ELEC-026]
+  <serie micro conversion>
+      VID  serie micro conversion                         [ATEF-ELEC-030]
+
+[Raouedha erguez FRANCAIS]
+    25 fichiers, 3 dossiers
+  <(racine)>
+      DOC  Activité langue le but BS                      [RAOUEDHA-FR-001]
+      DOC  expression écrite le point de vue absolu   pt  [RAOUEDHA-FR-002]
+      DOC  Histoires d_amour, texte argumentatif. BS      [RAOUEDHA-FR-004]
+      DOC  Le but exercices                               [RAOUEDHA-FR-006]
+      DOC  étude de texte répondre aux questions de compr [RAOUEDHA-FR-009]
+      DOC  la cause et la conséquence exercices           [RAOUEDHA-FR-011]
+      DOC  La cause et la conséquence                     [RAOUEDHA-FR-013]
+      DOC  Module1 le txt explicatif le txt argumentatif  [RAOUEDHA-FR-014]
+      DOC  Répondre à une question portant sur les procéd [RAOUEDHA-FR-015]
+      DOC  souvenirs et nostalgie vovabulaire             [RAOUEDHA-FR-018]
+      DOC  texte explicatif2(1)                           [RAOUEDHA-FR-021]
+      DOC  texte explicatif2                              [RAOUEDHA-FR-023]
+      DOC  étude de texte lire comprendre une question de [RAOUEDHA-FR-024]
+  <Trimestre 1/Module 2 _Histoires d_amour_>
+      VID  expression écrite le point de vue absolu       [RAOUEDHA-FR-003]
+      VID  le but exercices                               [RAOUEDHA-FR-005]
+      VID  le but                                         [RAOUEDHA-FR-007]
+      VID  étude de texte répondre aux questions de compr [RAOUEDHA-FR-008]
+  <Trimestre 1/Module1 _souvenirs et nostalgie_>
+      VID  la cause et la conséquence exercices MM        [RAOUEDHA-FR-010]
+      VID  la cause et la conséquence                     [RAOUEDHA-FR-012]
+      VID  répondre à une question portant sur les procés [RAOUEDHA-FR-016]
+      VID  souvenirs et nostalgie  vocabulaire            [RAOUEDHA-FR-017]
+      VID  texte explicatif texte argumentatif quelle dif [RAOUEDHA-FR-019]
+      VID  texte explicatif1                              [RAOUEDHA-FR-020]
+      VID  texte explicatif2                              [RAOUEDHA-FR-022]
+      VID  étude de texte lire et comprendre une question [RAOUEDHA-FR-025]
+
+[mariem sghaier FRANCAIS LETTRES]
+    24 fichiers, 9 dossiers
+  <(racine)>
+      VID  la comparaison et la métaphore                 [MARIEM-FR-024]
+  <T1>
+      VID  1- les thèmes abordés                          [MARIEM-FR-001]
+      VID  10- les formes de phrase 2                     [MARIEM-FR-002]
+      VID  11- les procédés de l_ironie                   [MARIEM-FR-003]
+      VID  12- la comparaison et la métaphore             [MARIEM-FR-004]
+      VID  13- méthodologie                               [MARIEM-FR-005]
+      VID  14- comment répondre à une question de texte   [MARIEM-FR-006]
+      VID  15- procédés d_écriture                        [MARIEM-FR-007]
+      VID  2- partage entre union et division             [MARIEM-FR-008]
+      VID  3- les connecteurs logiques 1                  [MARIEM-FR-009]
+      VID  4- les connecteurs logiques 2                  [MARIEM-FR-010]
+      VID  8- les types de phrase                         [MARIEM-FR-011]
+      VID  9- les formes de phrase 1                      [MARIEM-FR-012]
+  <T2>
+      VID  cause et conséq                                [MARIEM-FR-013]
+      VID  l_antithèse et l_oxymore                       [MARIEM-FR-014]
+      VID  la personnification et la fausse question      [MARIEM-FR-018]
+  <T2/l_appel de la modernité>
+      VID  l_appel de la modernité                        [MARIEM-FR-015]
+  <T2/l_opposition et la concession>
+      VID  l_opposition et la concession                  [MARIEM-FR-016]
+  <T2/la concordance de temps>
+      VID  la concordance de temps                        [MARIEM-FR-017]
+  <T2/les modes>
+      VID  les modes                                      [MARIEM-FR-019]
+  <T2/à la lumière de la raison 1>
+      VID  à la lumière de la raison 1                    [MARIEM-FR-020]
+  <T3>
+      VID  but bac                                        [MARIEM-FR-021]
+      VID  discours rapporté                              [MARIEM-FR-022]
+      VID  pratique de la langue d.rapporté 1             [MARIEM-FR-023]
+
+[BAC — SAMIA (MATH)]
+    16 fichiers, 1 dossiers
+  <(racine)>
+      VID  App-Nombre complexe.mp4                        [SAMIA-MATH-001]
+      VID  Arg-forme trigonometrique.mp4                  [SAMIA-MATH-002]
+      VID  Equation dans C.mp4                            [SAMIA-MATH-003]
+      VID  EX1-etude de fonction.mp4                      [SAMIA-MATH-004]
+      VID  EX1-nbre cplxe.mp4                             [SAMIA-MATH-005]
+      VID  EX2-nbre cplxe.mp4                             [SAMIA-MATH-006]
+      VID  EX2-partie 2.mp4                               [SAMIA-MATH-007]
+      VID  EX2-partie1.mp4                                [SAMIA-MATH-008]
+      VID  Exercice -Equation dans C.mp4                  [SAMIA-MATH-009]
+      VID  Exercice -forme trigonometrique.mp4            [SAMIA-MATH-010]
+      VID  Forme exponentielle d'un nombre complexe.mp4   [SAMIA-MATH-011]
+      VID  formes geometriques et nombres complexes.mp4   [SAMIA-MATH-012]
+      VID  Interpretations graphiques.mp4                 [SAMIA-MATH-013]
+      VID  le conjugué.mp4                                [SAMIA-MATH-014]
+      VID  Module d'un nombre complexe.mp4                [SAMIA-MATH-015]
+      VID  Representation geometrique-nbre-complexe.mp4   [SAMIA-MATH-019]
+
+[walid ferhi]
+    12 fichiers, 1 dossiers
+  <(racine)>
+      VID  الانية بما هي ذات واعية (ديكارت) 3             [WALID-PHILO-001]
+      VID  التكامل بين الوعي  10و اللاوعي                 [WALID-PHILO-002]
+      VID  الذات المتجسدة 5                               [WALID-PHILO-003]
+      VID  الغيرية كامنة في الذات 11                      [WALID-PHILO-004]
+      VID  الوعي بما هو تشكل تاريخي 7                     [WALID-PHILO-005]
+      VID  الوعي بناء تاريخي (ماركس) 8                    [WALID-PHILO-006]
+      VID  تاسيس انطولوجيا جديدة للجسد 6                  [WALID-PHILO-007]
+      VID  تعالي الانية على الغيرية 2                     [WALID-PHILO-008]
+      VID  تمهيد محور الإنية  1والغيرية                   [WALID-PHILO-009]
+      VID  جدلية الوعي و اللاوعي 9                        [WALID-PHILO-010]
+      VID  في جدلية الانية و الغيرية 4                    [WALID-PHILO-011]
+      DOC  محور الإنية والغيرية                           [WALID-PHILO-012]
+
+[BAC — MOHSSEN (SVT)]
+    5 fichiers, 1 dossiers
+  <(racine)>
+      VID  L1 WA .mp4                                     [MOHSSEN-SVT-018]
+      VID  nidation et role du placenta - .mp4            [MOHSSEN-SVT-019]
+      VID  L5    La fonction reproductrice chez la femme. [MOHSSEN-SVT-029]
+      VID  régulation femme.mp4                           [MOHSSEN-SVT-036]
+      VID  Rappel 1 dihybridisme .mp4                     [MOHSSEN-SVT-041]
+
+[BAC — NAJEH (AR)]
+    5 fichiers, 1 dossiers
+  <(racine)>
+      VID  1 المفاهيم واهمية الحوار ومجالاته.mp4          [NAJEH-AR-054]
+      VID  2 الحوار بين المؤيدين والمشككين.mp4            [NAJEH-AR-055]
+      VID  تدريب على الفرض.mp4                            [NAJEH-AR-056]
+      VID  شروط الحوار ووسائله وفوائده.mp4                [NAJEH-AR-057]
+      VID  عوائق الحوار والحلول وتلخبص عام.mp4            [NAJEH-AR-058]
+
+[BAC — NADA (ANG)]
+    3 fichiers, 1 dossiers
+  <(racine)>
+      VID  Unit 2 Lesson 3 Language Part 1.wmv            [NADA-ANG-023]
+      VID  Unit 2 Lesson 3 Vocabulary Part.wmv            [NADA-ANG-025]
+      VID  Unit 2 Lesson 3 Writing Part.wmv               [NADA-ANG-026]
+
+[BAC — AMMAR (MECA)]
+    1 fichiers, 1 dossiers
+  <(racine)>
+      VID  APPLICATION 1.mp4                              [AMMAR-MECA-082]
+
+[BAC — MAHDI (PHYS)]
+    1 fichiers, 1 dossiers
+  <(racine)>
+      VID  dipole RL etude théorique.mp4                  [MAHDI-PHYS-080]   << ABSENT DE BUNNY >>
